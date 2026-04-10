@@ -21,7 +21,7 @@ export function ThemeToggle({ className }: ThemeToggleProps) {
   if (!mounted) {
     return (
       <div className={cn(
-        "flex w-16 h-8 p-1 rounded-full bg-zinc-950 border border-zinc-800",
+        "flex w-16 h-8 p-1 rounded-full bg-zinc-950 border border-zinc-800 shadow-sm",
         className
       )} />
     )
@@ -32,10 +32,10 @@ export function ThemeToggle({ className }: ThemeToggleProps) {
   return (
     <div
       className={cn(
-        "flex w-16 h-8 p-1 rounded-full cursor-pointer transition-all duration-300",
+        "flex w-16 h-8 p-1 rounded-full cursor-pointer transition-all duration-300 shadow-sm",
         isDark 
           ? "bg-zinc-950 border border-zinc-800" 
-          : "bg-white border border-zinc-200 shadow-md",
+          : "bg-white border border-zinc-200",
         className
       )}
       onClick={() => setTheme(isDark ? "light" : "dark")}

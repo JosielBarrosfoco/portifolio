@@ -49,6 +49,91 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+	<style>
+		body.dark-mode { background: #0b1122 !important; color: #e2e8f0 !important; }
+		body.dark-mode a, body.dark-mode .colorlib-logo a, body.dark-mode .position a { color: #93c5fd !important; }
+		body.dark-mode #colorlib-aside { background: #111827 !important; border-color: #334155 !important; }
+		body.dark-mode #colorlib-main,
+		body.dark-mode .colorlib-footer,
+		body.dark-mode .colorlib-narrow-content,
+		body.dark-mode .colorlib-services,
+		body.dark-mode .colorlib-about,
+		body.dark-mode .colorlib-skills,
+		body.dark-mode .colorlib-education,
+		body.dark-mode .colorlib-experience,
+		body.dark-mode .colorlib-work,
+		body.dark-mode .colorlib-blog,
+		body.dark-mode .colorlib-contact { background: #020617 !important; }
+		body.dark-mode .colorlib-heading,
+		body.dark-mode .heading-meta,
+		body.dark-mode h1,
+		body.dark-mode h2,
+		body.dark-mode h3,
+		body.dark-mode h4,
+		body.dark-mode .desc,
+		body.dark-mode .position,
+		body.dark-mode p,
+		body.dark-mode li,
+		body.dark-mode span,
+		body.dark-mode label,
+		body.dark-mode .form-control { color: #e2e8f0 !important; }
+		body.dark-mode .btn-primary { background: #0284c7 !important; border-color: #0369a1 !important; color: #fff !important; }
+		body.dark-mode .btn-primary:hover { background: #0369a1 !important; }
+		body.dark-mode .theme-toggle-btn { background: rgba(15,23,42,.92) !important; border-color: #475569 !important; color: #e2e8f0 !important; }
+		body.dark-mode .panel-heading a, body.dark-mode .panel-heading a.collapsed, body.dark-mode .panel-body {
+			color: #e2e8f0 !important;
+		}
+		body.dark-mode .panel-heading a {
+			background-color: #1e293b !important;
+			border-color: #334155 !important;
+		}
+		body.dark-mode .panel-heading a.collapsed {
+			background-color: #0f172a !important;
+			border-color: #334155 !important;
+		}
+		body.dark-mode .panel-body {
+			background-color: rgba(226,232,240,0.06) !important;
+			border-color: #334155 !important;
+		}
+		body.dark-mode .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
+			background: #111827 !important;
+		}
+		body.dark-mode .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label:after {
+			border-color: transparent #111827 transparent transparent !important;
+		}
+		body.dark-mode .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a,
+		body.dark-mode .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p,
+		body.dark-mode .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 span {
+			color: #e2e8f0 !important;
+		}
+		body.dark-mode .colorlib-heading,
+		body.dark-mode .heading-meta,
+		body.dark-mode .about-desc h3 {
+			color: #e2e8f0 !important;
+		}
+		.theme-toggle-btn {
+			margin: 0.85rem auto 0;
+			display: inline-flex;
+			align-items: center;
+			gap: 0.5rem;
+			padding: 0.55rem 0.95rem;
+			border-radius: 999px;
+			border: 1px solid #cbd5e1;
+			background: rgba(255,255,255,.95);
+			color: #0f172a;
+			font-size: 0.85rem;
+			font-weight: 600;
+			cursor: pointer;
+			transition: all 0.25s ease-in-out;
+			box-shadow: 0 10px 25px rgba(15,23,42,.08);
+		}
+		.theme-toggle-btn:hover { transform: translateY(-1px); box-shadow: 0 14px 30px rgba(15,23,42,.16); }
+		.theme-toggle-btn svg { display: block; flex-shrink: 0; }
+		.theme-toggle-container { display: inline-block; }
+		#colorlib-aside .text-center .theme-toggle-container { margin-top: 0.7rem; }
+		#colorlib-hero .flexslider .slides li .slider-text-inner .desc { margin-top: 32rem !important; }
+	</style>
+
 	</head>
 	<body>
 	<div id="colorlib-page">
@@ -58,7 +143,23 @@
 			<div class="text-center">
 				<div class="author-img" style="background-image: url(images/imagen02.webp);"></div>
 				<h1 id="colorlib-logo"><a href="index.html">Josiel Barros</a></h1>
-				<span class="position"><a href="#">Python/HTML/CSS/Javascript</a> No Brasil</span>
+				<div class="theme-toggle-container">
+					<button id="theme-toggle" class="theme-toggle-btn" type="button" aria-label="Alternar tema claro e escuro">
+						<svg id="theme-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M12 2.75V4.75" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M12 19.25V21.25" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M4.75 12H2.75" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M21.25 12H19.25" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M5.85 5.85L4.45 4.45" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M19.55 19.55L18.15 18.15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M5.85 18.15L4.45 19.55" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M19.55 4.45L18.15 5.85" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+							<circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/>
+						</svg>
+						<span id="theme-toggle-text">Tema Escuro</span>
+					</button>
+				</div>
+				<span class="position"><a href="#">Backend Python | Django | APIs REST | PostgreSQL</a> No Brasil</span>
 			</div>
 			<nav id="colorlib-main-menu" role="navigation" class="navbar">
 				<div id="navbar" class="collapse">
@@ -94,7 +195,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> Todos os di
 			<section id="colorlib-hero" class="js-fullheight" data-section="home">
 				<div class="flexslider js-fullheight">
 					<ul class="slides">
-				   	<li style="background-image: url(images/LOGO.png);">
+				   	<li style="background: url('images/abacus\ ai.webp') center center / cover no-repeat;">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
@@ -110,7 +211,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> Todos os di
 					   		</div>
 				   		</div>
 				   	</li>
-				   	<li style="background-image: url(images/Post\ do\ instagram\ dia\ do\ profissional\ de\ ti\ moderno\ azul\ e\ branco.png);">
+				   	<li style="background: url('images/Post do instagram dia do profissional de ti moderno azul e branco.png') center center / cover no-repeat;">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
@@ -637,7 +738,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> Todos os di
 					</div>
 					<div class="row">
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/trabalhos.png);">
+							<div class="project" style="background-image: url(images/educacional.png);">
 								<div class="desc">
 									<div class="con">
 										<h3><a href="https://educativo-site.netlify.app/">site Educativo</a></h3>
@@ -652,7 +753,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> Todos os di
 							</div>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/quer\ um\ site.png);">
+							<div class="project" style="background-image: url(images/advocacia.png);">
 								<div class="desc">
 									<div class="con">
 										<h3><a href="https://regal-chimera-c81ca6.netlify.app/">Site para empresa (modelo empresa de contabilidade) </a></h3>
@@ -667,7 +768,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> Todos os di
 							</div>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
-							<div class="project" style="background-image: url(images/3bot.png);">
+							<div class="project" style="background-image: url(images/automação.png);">
 								<div class="desc">
 									<div class="con">
 										<h3><a href="https://cute-paletas-f2b804.netlify.app/">automação/bot</a></h3>
@@ -682,7 +783,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> Todos os di
 							</div>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-							<div class="project" style="background-image: url(images/aplicativo.jpg);">
+							<div class="project" style="background-image: url(images/aplicativo.png);">
 								<div class="desc">
 									<div class="con">
 										<h3><a href="https://poetic-praline-47d648.netlify.app/">Tranforme sua ideia em aplicativo</a></h3>
@@ -697,7 +798,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> Todos os di
 							</div>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/escalaveis.png);">
+							<div class="project" style="background-image: url(images/loja.png);">
 								<div class="desc">
 									<div class="con">
 										<h3><a href="https://agencia-jbmarketing.netlify.app/">Agencia de marketing (Modelo)</a></h3>
@@ -756,7 +857,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> Todos os di
 						</div>
 						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
 							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/dia do programador.png" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<a href="blog.html" class="blog-img"><img src="images/advocacia.png" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
 									<span><small>Novembro 13, 2023 </small> | <small> Informação TI </small> | <small> <iclass="icon-bubble3"></iclass=> 4</small></span>
 									<h3><a href="blog.html">Desenvolvedo insprirações</a></h3>
@@ -766,7 +867,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> Todos os di
 						</div>
 						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/escalaveis.png" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<a href="blog.html" class="blog-img"><img src="images/contabilidade.png" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
 									<span><small>Fevereiro 11,2023 </small> | <small> Inspirção
 							             </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
@@ -886,6 +987,37 @@ Copyright <script>document.write(new Date().getFullYear());</script> Todos os di
 	
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
+	<script>
+		function updateTheme(isDark) {
+			document.body.classList.toggle('dark-mode', isDark);
+			const themeText = document.getElementById('theme-toggle-text');
+			const themeIcon = document.getElementById('theme-icon');
+			if (themeText) {
+				themeText.textContent = isDark ? 'Tema Claro' : 'Tema Escuro';
+			}
+			if (themeIcon) {
+				themeIcon.innerHTML = isDark
+					? '<path d="M21 12.79A9 9 0 0 1 11.21 3 7 7 0 1 0 21 12.79z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>'
+					: '<path d="M12 3.75V5.75" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 18.25V20.25" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M4.75 12H2.75" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M21.25 12H19.25" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M5.85 5.85L4.45 4.45" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M19.55 19.55L18.15 18.15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M5.85 18.15L4.45 19.55" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M19.55 4.45L18.15 5.85" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/>';
+			}
+		}
+
+		document.addEventListener('DOMContentLoaded', function () {
+			const storedTheme = localStorage.getItem('site-theme');
+			const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			const isDark = storedTheme ? storedTheme === 'dark' : prefersDark;
+			updateTheme(isDark);
+
+			const toggle = document.getElementById('theme-toggle');
+			if (toggle) {
+				toggle.addEventListener('click', function () {
+					const nextDark = !document.body.classList.contains('dark-mode');
+					updateTheme(nextDark);
+					localStorage.setItem('site-theme', nextDark ? 'dark' : 'light');
+				});
+			}
+		});
+	</script>
 
 	</body>
 
