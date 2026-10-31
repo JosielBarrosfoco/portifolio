@@ -24,3 +24,54 @@ img{max-width:100%;display:block}
 @media(max-width:720px){.hero-content{grid-template-columns:1fr;gap:42px;padding:60px 25px 110px}.hero h1{font-size:clamp(42px,8vw,62px)}.hero-lead{font-size:14px}.portrait-side{max-width:360px}.portrait-frame{max-height:370px;aspect-ratio:1/1.03;border-radius:185px 185px 17px 17px}.portrait-note{right:-4px;bottom:-17px}.hero-down{left:25px}.section{padding:75px 25px}.about-layout,.contact-layout{grid-template-columns:1fr;gap:32px}.section-head{align-items:flex-start;flex-direction:column;gap:12px}.section-head>p{max-width:630px}.service-grid,.projects-grid{grid-template-columns:1fr}.history-grid{grid-template-columns:1fr}.projects-footer{align-items:flex-start;flex-direction:column}.site-footer{padding:24px 25px}.contact-links a{grid-template-columns:24px 1fr auto;gap:9px}.contact-links a em{display:none}}
 @media(max-width:440px){.hero h1{font-size:40px}.eyebrow{font-size:9px;letter-spacing:.13em}.hero-actions{display:flex;flex-direction:column;align-items:stretch}.button{justify-content:space-between}.hero-details{gap:6px;margin-top:28px}.hero-details span{font-size:8px}.section-intro h2,.section-head h2,.contact-layout h2{font-size:33px}.service-card{padding:24px}.project-body{padding:23px}.filter-toolbar #project-count{width:100%;margin:10px 0 0}.portrait-side{max-width:285px}.portrait-frame{max-height:300px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+
+/* Identidade oficial da PLAGE SYSTEM e apresentação institucional */
+.founder-badge{display:inline-flex;align-items:center;gap:12px;max-width:100%;margin:22px 0 4px;padding:8px 14px 8px 8px;border:1px solid rgba(153,232,214,.34);border-radius:14px;background:rgba(7,49,55,.65);box-shadow:0 14px 38px rgba(0,0,0,.08);transition:background .2s,border-color .2s}
+.founder-badge:hover{background:rgba(10,76,79,.72);border-color:#99edd7}
+.founder-badge img{height:46px;width:46px;object-fit:cover;border-radius:10px;flex-shrink:0}
+.founder-badge span:nth-child(2){display:flex;flex-direction:column;gap:4px}
+.founder-badge strong{font-size:12px;color:#bdf5e4;letter-spacing:.08em}
+.founder-badge small{font-size:11px;color:#a8c9c5}
+.founder-badge span:last-child{margin-left:auto;color:#a5e9d9}
+.sidebar-plage{margin-top:21px;padding:9px 8px;border:1px solid rgba(113,206,187,.26);border-radius:12px;background:rgba(34,88,90,.18);display:flex;align-items:center;gap:10px;transition:background .2s}
+.sidebar-plage:hover{background:rgba(34,103,96,.36)}
+.sidebar-plage img{width:46px;height:46px;object-fit:cover;border-radius:10px}
+.sidebar-plage span{display:flex;flex-direction:column;gap:5px;min-width:0}
+.sidebar-plage strong{font-size:10px;letter-spacing:.09em;color:#caf8e7}
+.sidebar-plage small{font-size:10px;line-height:1.35;color:#a4c1c3}
+.company-section{background:radial-gradient(ellipse at 20% 0%,rgba(40,124,117,.19),transparent 56%),linear-gradient(155deg,#071d25,#0a3438 72%,#0b222b);color:#f0f8f6;overflow:hidden}
+.company-layout{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(270px,.88fr);gap:clamp(30px,5.4vw,95px);align-items:center}
+.company-copy{min-width:0}
+.company-kicker{color:#9ce5ce}
+.company-mark{display:flex;align-items:center;gap:18px;margin:25px 0 25px}
+.company-mark img{width:94px;height:94px;object-fit:cover;border:1px solid rgba(255,255,255,.16);border-radius:19px;box-shadow:0 20px 45px rgba(0,0,0,.2)}
+.company-mark div{display:flex;flex-direction:column;gap:7px}
+.company-mark div span{font-size:10px;font-weight:800;letter-spacing:.15em;color:#92dccc}
+.company-mark strong{font:700 clamp(21px,2.5vw,30px)/1 var(--display);letter-spacing:-.04em}
+.company-mark small{font-size:11px;color:#d8b86d;font-weight:800;letter-spacing:.12em}
+.company-copy h2{font:650 clamp(31px,3.7vw,52px)/1.18 var(--display);letter-spacing:-.05em;max-width:700px;margin:0 0 27px}
+.company-copy h2 em{color:#9becd4;font-style:normal}
+.company-copy p{color:#b4d0cf;max-width:615px;line-height:1.85;margin:0 0 16px;font-size:15px}
+.company-copy p strong{color:#f5fcf8}
+.company-pillars{display:flex;flex-wrap:wrap;gap:8px;margin:26px 0 29px}
+.company-pillars span{padding:8px 11px;border:1px solid rgba(151,226,210,.22);border-radius:7px;background:rgba(255,255,255,.05);font-weight:700;font-size:11px;color:#bcdfd8}
+.company-actions{display:flex;align-items:center;flex-wrap:wrap;gap:22px}
+.company-video-link{display:inline-flex;gap:8px;align-items:center;color:#aef2db;font-size:12px;font-weight:800}
+.company-video-link:hover{text-decoration:underline}
+.company-media{max-width:465px;width:100%;justify-self:center;border:1px solid rgba(159,230,209,.22);border-radius:22px;background:#071d26;padding:15px;box-shadow:0 28px 65px rgba(0,0,0,.23);scroll-margin-top:24px}
+.company-media-head{display:flex;align-items:center;gap:9px;padding:5px 5px 14px;font-size:9px;font-weight:800;letter-spacing:.11em;color:#badad7}
+.company-media-head span:last-child{margin-left:auto;color:#e4cb82}
+.media-indicator{width:7px;height:7px;border-radius:50%;background:#6cdfc5;box-shadow:0 0 0 5px rgba(108,223,197,.12)}
+.company-video-frame{display:flex;align-items:center;justify-content:center;min-height:400px;border-radius:14px;overflow:hidden;position:relative;background:radial-gradient(ellipse at 50% 20%,#15585c,#07191e 70%)}
+.company-video-frame video{width:auto;max-width:100%;height:min(60vh,590px);min-height:380px;aspect-ratio:9 / 16;object-fit:contain;background:#06191d;display:block;cursor:pointer}
+.company-video-foot{display:flex;align-items:center;gap:12px;padding:13px 4px 2px}
+.company-video-foot img{width:39px;height:39px;border-radius:9px;object-fit:cover}
+.company-video-foot p{display:flex;flex-direction:column;gap:4px;margin:0;line-height:1.35;font-size:11px;color:#a3c5bf}
+.company-video-foot strong{color:#edf9f4;font-size:11px}
+.company-video-foot span{color:#90b9b3}
+.project-plage-logo{position:absolute;top:20px;right:20px;border-radius:12px;width:74px;height:74px;object-fit:cover;border:1px solid rgba(255,255,255,.17);z-index:1;box-shadow:0 10px 22px rgba(0,0,0,.15)}
+@media(max-width:1250px){.company-layout{gap:30px}}
+@media(max-width:900px){.company-layout{grid-template-columns:1fr}.company-media{max-width:470px;justify-self:center}.company-copy h2{max-width:780px}}
+@media(max-width:720px){.company-mark img{width:70px;height:70px}.company-mark div span{font-size:9px}.company-mark strong{font-size:25px}.company-copy h2{font-size:clamp(33px,7.2vw,45px)}.company-copy p{font-size:14px}.company-video-frame video{height:min(74vh,565px)}.company-media{padding:12px}.founder-badge{margin-top:14px}}
+@media(max-width:440px){.founder-badge{width:100%}.founder-badge strong{font-size:10px}.founder-badge small{font-size:9px}.company-actions{align-items:stretch}.company-actions>.button{width:100%}.company-mark{gap:12px}.company-mark strong{font-size:20px}.company-mark small{font-size:9px}.company-video-frame video{min-height:340px;height:min(76vh,540px)}.company-media-head{font-size:8px}}
