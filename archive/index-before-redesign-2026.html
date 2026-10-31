@@ -1,0 +1,1056 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Josiel_Barros</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="autor" content="" />
+
+  <!-- Facebook e Twitter interaçoes -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Coloque favicon.ico e apple-touch-icon.png no diretório raiz-->
+	<link rel="shortcut icon" href="images/codigo.png">
+
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	<style>
+		body.dark-mode { background: #0b1122 !important; color: #e2e8f0 !important; }
+		body.dark-mode a, body.dark-mode .colorlib-logo a, body.dark-mode .position a { color: #93c5fd !important; }
+		body.dark-mode #colorlib-aside { background: #111827 !important; border-color: #334155 !important; }
+		body.dark-mode #colorlib-main,
+		body.dark-mode .colorlib-footer,
+		body.dark-mode .colorlib-narrow-content,
+		body.dark-mode .colorlib-services,
+		body.dark-mode .colorlib-about,
+		body.dark-mode .colorlib-skills,
+		body.dark-mode .colorlib-education,
+		body.dark-mode .colorlib-experience,
+		body.dark-mode .colorlib-work,
+		body.dark-mode .colorlib-blog,
+		body.dark-mode .colorlib-contact { background: #020617 !important; }
+		body.dark-mode .colorlib-heading,
+		body.dark-mode .heading-meta,
+		body.dark-mode h1,
+		body.dark-mode h2,
+		body.dark-mode h3,
+		body.dark-mode h4,
+		body.dark-mode .desc,
+		body.dark-mode .position,
+		body.dark-mode p,
+		body.dark-mode li,
+		body.dark-mode span,
+		body.dark-mode label,
+		body.dark-mode .form-control { color: #e2e8f0 !important; }
+		body.dark-mode .btn-primary { background: #0284c7 !important; border-color: #0369a1 !important; color: #fff !important; }
+		body.dark-mode .btn-primary:hover { background: #0369a1 !important; }
+		body.dark-mode .theme-toggle-btn { background: rgba(15,23,42,.92) !important; border-color: #475569 !important; color: #e2e8f0 !important; }
+		body.dark-mode .panel-heading a, body.dark-mode .panel-heading a.collapsed, body.dark-mode .panel-body {
+			color: #e2e8f0 !important;
+		}
+		body.dark-mode .panel-heading a {
+			background-color: #1e293b !important;
+			border-color: #334155 !important;
+		}
+		body.dark-mode .panel-heading a.collapsed {
+			background-color: #0f172a !important;
+			border-color: #334155 !important;
+		}
+		body.dark-mode .panel-body {
+			background-color: rgba(226,232,240,0.06) !important;
+			border-color: #334155 !important;
+		}
+		body.dark-mode .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
+			background: #111827 !important;
+		}
+		body.dark-mode .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label:after {
+			border-color: transparent #111827 transparent transparent !important;
+		}
+		body.dark-mode .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a,
+		body.dark-mode .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p,
+		body.dark-mode .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 span {
+			color: #e2e8f0 !important;
+		}
+		body.dark-mode .colorlib-heading,
+		body.dark-mode .heading-meta,
+		body.dark-mode .about-desc h3 {
+			color: #e2e8f0 !important;
+		}
+		.theme-toggle-btn {
+			margin: 0.85rem auto 0;
+			display: inline-flex;
+			align-items: center;
+			gap: 0.5rem;
+			padding: 0.55rem 0.95rem;
+			border-radius: 999px;
+			border: 1px solid #cbd5e1;
+			background: rgba(255,255,255,.95);
+			color: #0f172a;
+			font-size: 0.85rem;
+			font-weight: 600;
+			cursor: pointer;
+			transition: all 0.25s ease-in-out;
+			box-shadow: 0 10px 25px rgba(15,23,42,.08);
+		}
+		.theme-toggle-btn:hover { transform: translateY(-1px); box-shadow: 0 14px 30px rgba(15,23,42,.16); }
+		.theme-toggle-btn svg { display: block; flex-shrink: 0; }
+		.theme-toggle-container { display: inline-block; }
+		#colorlib-aside .text-center .theme-toggle-container { margin-top: 0.7rem; }
+		#colorlib-hero .flexslider .slides li .slider-text-inner .desc { margin-top: 32rem !important; }
+	</style>
+
+	</head>
+	<body>
+	<div id="colorlib-page">
+		<div class="container-wrap">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<div class="text-center">
+				<div class="author-img" style="background-image: url(images/imagen02.webp);"></div>
+				<h1 id="colorlib-logo"><a href="index.html">Josiel Barros</a></h1>
+				<div class="theme-toggle-container">
+					<button id="theme-toggle" class="theme-toggle-btn" type="button" aria-label="Alternar tema claro e escuro">
+						<svg id="theme-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M12 2.75V4.75" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M12 19.25V21.25" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M4.75 12H2.75" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M21.25 12H19.25" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M5.85 5.85L4.45 4.45" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M19.55 19.55L18.15 18.15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M5.85 18.15L4.45 19.55" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M19.55 4.45L18.15 5.85" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+							<circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/>
+						</svg>
+						<span id="theme-toggle-text">Tema Escuro</span>
+					</button>
+				</div>
+				<span class="position"><a href="#">Backend Python | Django | APIs REST | PostgreSQL</a> No Brasil</span>
+			</div>
+			<nav id="colorlib-main-menu" role="navigation" class="navbar">
+				<div id="navbar" class="collapse">
+					<ul>
+						<li class="active"><a href="#" data-nav-section="home">Página inicial</a></li>
+						<li><a href="#" data-nav-section="about">Sobre</a></li>
+						<li><a href="#" data-nav-section="services">Serviço</a></li>
+						<li><a href="#" data-nav-section="skills">Habilidade</a></li>
+						<li><a href="#" data-nav-section="education">Formação</a></li>
+						<li><a href="#" data-nav-section="experience">Experiencia</a></li>
+						<li><a href="#" data-nav-section="work">Mundo</a></li>
+						<li><a href="#" data-nav-section="blog">Blog</a></li>
+						<li><a href="#" data-nav-section="contact">Contato</a></li>
+					</ul>
+				</div>
+			</nav>
+
+			<div class="colorlib-footer">
+				<p><small>&copy; <!-- Josiel sarmento barros junior -->
+Copyright <script>document.write(new Date().getFullYear());</script> Todos os direitos reservados. Feito<i class="icon-heart" aria-hidden="true"></i> por <a href="https://linktr.ee/josielbarr?utm_source=linktree_profile_share&ltsid=016f5a74-1739-4c94-8fa5-32bf4dc928f7" target="_blank">Josiel</a>
+<!-- Não pode co´pia--> </span> <span>Distribuído por <a href="Magnus" target="_blank">@josieljuniorfoco</a></span> <span>Links: <a href="https://linktr.ee/josielbarr?utm_source=linktree_profile_share&ltsid=016f5a74-1739-4c94-8fa5-32bf4dc928f7" target="_blank">Rápidos</a></span></small></p>              
+				<ul>
+					<li><a href="#"><i class="icon-facebook2"></i></a></li>
+					<li><a href="#"><i class="icon-twitter2"></i></a></li>
+					<li><a href="https://www.instagram.com/josiel.dev/"><i class="icon-instagram"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/josiel-barros/"><i class="icon-linkedin2"></i></a></li>
+				</ul>
+			</div>
+
+		</aside>
+
+		<div id="colorlib-main">
+			<section id="colorlib-hero" class="js-fullheight" data-section="home">
+				<div class="flexslider js-fullheight">
+					<ul class="slides">
+				   	<li style="background: url('images/abacus\ ai.webp') center center / cover no-repeat;">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner js-fullheight">
+					   					<div class="desc">
+						   					<h1><br></h1>
+						   					<h2>Conheça Meu<a href="https://terminal-portifolio.vercel.app/" target="_blank">Portifolio</a></h2>
+												<p><a class="btn btn-primary btn-learn">Pare tudo e veja isso!<i class="icon-download4"></i></a></p>
+											</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				   	<li style="background: url('images/Post do instagram dia do profissional de ti moderno azul e branco.png') center center / cover no-repeat;">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner">
+					   					<div class="desc">
+						   					<h1><br></h1>									
+										 <h2>Performance!<a href="https://linktr.ee/josielbarr?utm_source=linktree_profile_share&ltsid=016f5a74-1739-4c94-8fa5-32bf4dc928f7" target="_blank">Portifólio</a></h2>
+												<p><a class="btn btn-primary btn-learn">Ver Portfolio <i class="icon-briefcase3"></i></a></p>
+											</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				  	</ul>
+			  	</div>
+			</section>
+
+			<section class="colorlib-about" data-section="about">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="col-md-12">
+									<div class="about-desc">
+										<span class="heading-meta">Quem sou?</span>
+										<h2 class="colorlib-heading">Pronto para desenvolver seu projetos</h2>
+										<p><strong>Desenvolvedor</strong>  profissional capaz de criar soluções de software para atender às necessidades de uma empresa ou de um cliente, Sou responsável por desenvolver, testar e implementar programas, aplicativos e sistemas computacionais.
+
+								         </p>
+										<p>tenho habilidades de comunicação para entender as necessidades dos clientes e trabalhar em equipe com outros desenvolvedores e profissionais de TI. A capacidade de aprender rapidamente novas tecnologias e adaptar-se a diferentes ambientes de programação.</p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+									<div class="services color-1">
+										<span class="icon2"><i class="icon-bulb"></i></span>
+										<h3>WordPress</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
+									<div class="services color-2">
+										<span class="icon2"><i class="icon-globe-outline"></i></span>
+										<h3>HTML e CSS3</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
+									<div class="services color-3">
+										<span class="icon2"><i class="icon-data"></i></span>
+										<h3>Software</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+									<div class="services color-4">
+										<span class="icon2"><i class="icon-phone3"></i></span>
+										<h3>Aplicativos</h3>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+									<div class="hire">
+										<h2>Estou feliz em conhecê-lo <br>Que mais de 23 projetos feitos com sucesso!</h2>
+										<a href="https://linktr.ee/josielbarr?utm_source=linktree_profile_share&ltsid=016f5a74-1739-4c94-8fa5-32bf4dc928f7" class="btn-hire">contrate-me</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			
+			<section class="colorlib-services" data-section="services">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Quem eu sou?</span>
+							<h2 class="colorlib-heading">Aqui estão alguns dos meus conhecimentos</h2>
+						</div>
+					</div>
+					<div class="row row-pt-md">
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-1">
+								<span class="icon">
+									<i class="icon-bulb"></i>
+								</span>
+								<div class="desc">
+									<h3>Ideias inovadoras</h3>
+									<p>Desenvolvimento de um sistema de gerenciamento de conteúdo personalizado.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-2">
+								<span class="icon">
+									<i class="icon-data"></i>
+								</span>
+								<div class="desc">
+									<h3>Software</h3>
+									<p>Implementação de um sistema de recomendação de produtos usando Python.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-3">
+								<span class="icon">
+									<i class="icon-phone3"></i>
+								</span>
+								<div class="desc">
+									<h3>Aplicativo</h3>
+									<p>Um aplicativo de treinamento físico, com vídeos e instruções sobre diferentes exercícios.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-4">
+								<span class="icon">
+									<i class="icon-layers2"></i>
+								</span>
+								<div class="desc">
+									<h3>HTML e CSS3</h3>
+									<p>Criação de um site interativo com animações em CSS3.</p>
+
+						
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-5">
+								<span class="icon">
+									<i class="icon-data"></i>
+								</span>
+								<div class="desc">
+									<h3>Software</h3>
+									<p>Implementação de um sistema de recomendação de produtos usando Python, que pode ser integrado a um site de comércio eletrônico.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-6">
+								<span class="icon">
+									<i class="icon-phone3"></i>
+								</span>
+								<div class="desc">
+									<h3>Aplicação</h3>
+									<p>Criação de um site de e-learning personalizado com recursos interativos.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/noite.png);" data-stellar-background-ratio="0.5">
+				<div class="overlay"></div>
+				<div class="colorlib-narrow-content">
+					<div class="row">
+					</div>
+					<div class="row">
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="120" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Realizações</span>
+						</div>
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="23" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Projetos</span>
+						</div>
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="30" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Clientes</span>
+						</div>
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="10" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Parçeiros</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<section class="colorlib-skills" data-section="skills">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Minha Especialidade</span>
+							<h2 class="colorlib-heading animate-box">Minhas habilidades</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<p>
+    Possuo domínio técnico em desenvolvimento backend com <strong>Python e frameworks como Django e Flask</strong>, além de sólida experiência em bancos de dados relacionais <strong>PostgreSQL e MySQL</strong>. Minha expertise inclui o gerenciamento de conteúdo e plataformas com <strong>WordPress</strong>, criação e consumo de <strong>APIs REST</strong>, controle de versão com <strong>Git</strong> e noções de conteinerização com <strong>Docker</strong>. Opero também com <strong>JavaScript</strong> para integrações no frontend, focando sempre na construção de sistemas escaláveis e na automação eficiente de processos internos.
+</p>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Python, JavaScript</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:50%">
+								    <span>50%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>Git, APIs REST</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:40%">
+								    <span>45%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>PostgreSQL, MySQL</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="85"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
+								    <span>75%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>Django, Flask</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
+								    <span>75%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>WordPress</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								    <span>70%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>Docker</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="30"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:30%">
+								    <span>20%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="colorlib-education" data-section="education">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Educação</span>
+							<h2 class="colorlib-heading animate-box">Educação</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<div class="fancy-collapse-panel">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingOne">
+									        <h4 class="panel-title">
+									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Formação Academica
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+									         <div class="panel-body">
+									            <div class="row">
+										      		<div class="col-md-6">
+    <p>
+        <strong>Técnico em Finanças e Contabilidade (Em andamento):</strong> 
+        Focado em gestão de tesouraria, fluxo de caixa, ciclo operacional, cálculos financeiros de curto e longo prazo, 
+		e análises contábeis (conforme o calendário 2025/2026 que você compartilhou).
+    </p>
+</div>
+<div class="col-md-6">
+    <p>
+        <strong>Técnico em Desenvolvimento de Sistemas (Concluído):</strong> 
+        Formação de base que me deu domínio sobre lógica de programação, 
+        arquitetura de software e bancos de dados.
+    </p>
+</div>
+										      	</div>
+									         </div>
+									    </div>
+									</div>
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingTwo">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Bacharel Ciencias contábeis
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+									        <div class="panel-body">
+									            <p>Possuo habilidades e conhecimentos em áreas como contabilidade, finanças, auditoria e gestão empresarial.sou capazes de interpretar e aplicar leis e regulamentações tributárias, gerenciar o fluxo de caixa e fazer análises financeiras.
+
+													 também Possuo habilidades analíticas que são capazes de trabalhar com números e estatísticas. tenho conhecimentos em software de gestão financeira e de contabilidade, e sou capazes de gerenciar informações financeiras com precisão. Além disso, possuem uma compreensão clara dos princípios contábeis, dos padrões internacionais de contabilidade e de outras regulamentações financeiras.</p>
+													<ul>
+														<li>Tenho uma forte ética de trabalho e um compromisso com a precisão e a integridade dos relatórios financeiros. Com minhas habilidades analíticas e de organização, posso garantir a conformidade com as normas contábeis e ajudar a empresa a tomar decisões financeiras sólidas e estratégicas.</li>
+													
+														<li>Estou confiante de que posso trazer soluções eficazes e 
+														contribuir para o sucesso da empresa.</li>
+													     
+													</ul>
+									        </div>
+									    </div>
+									</div>
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingThree">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Engenhero de software
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+									        <div class="panel-body">
+									            <p>Tenho trabalhos e  <strong>Projetos</strong>, como desenvolvedor back-end e projetos na área de Design gráficos com blander3.6 estou cursando engenharia de software 1° perido.</p>	
+									        </div>
+									    </div>
+									</div>
+
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingFour">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Certificados complementares
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+									        <div class="panel-body">
+									            <p>
+    Possuo conhecimento certificado em <strong>Metodologias Ágeis</strong> (Scrum e Kanban), 
+    aplicadas no gerenciamento de projetos e entregas iterativas. Especialização em 
+    <strong>LangChain</strong> para integração de inteligência artificial e modelos de linguagem 
+    em aplicações backend. Domínio no desenvolvimento de APIs de alta performance com 
+    <strong>FastAPI</strong> e sólida base em <strong>Modelagem Relacional</strong> para 
+    estruturação de bancos de dados escaláveis e consistentes.
+</p>	
+									        </div>
+									    </div>
+									</div>
+
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingFive">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Trabalho como free lancer
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+									        <div class="panel-body">
+									           <div class="projeto-relevante">
+  <h4>
+    Plage ERP — Sistema/Plataforma
+    <small>(Participação em desenvolvimento)</small>
+  </h4>
+
+  <p>
+    Site:
+    <a href="https://www.plageerp.com.br/" target="_blank" rel="noopener noreferrer">
+      https://www.plageerp.com.br/
+    </a>
+  </p>
+
+  <ul>
+    <li>Atuei no desenvolvimento de funcionalidades do sistema (backend/frontend)</li>
+    <li>Implementação e integração de APIs e regras de negócio</li>
+    <li>Banco de dados relacional (PostgreSQL/MySQL) e rotinas de CRUD</li>
+    <li>Correções, melhorias e manutenção evolutiva</li>
+  </ul>
+</div>	
+									        </div>
+									    </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="colorlib-experience" data-section="experience">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Experiencia</span>
+							<h2 class="colorlib-heading animate-box">Minha experinencia</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+				         <div class="timeline-centered">
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-1">
+					                  <i class="icon-pen2"></i>
+					               </div>
+
+					               <div class="timeline-label">
+					                  <h2><a href="#">Período: Janeiro de 2019 - Fevereiro de 2020</a> <span></span></h2>
+					                  <p>Projeto: Desenvolvimento de um site de comércio eletrônico para uma pequena empresa local.
+										- Responsabilidades:
+										  - Criação da estrutura do site utilizando HTML, CSS e JavaScript.
+										  - Implementação de funcionalidades dinâmicas utilizando PHP e MySQL.
+										  - Integração de métodos de pagamento e envio.
+										  - Otimização do site para melhorar o desempenho e a experiência do usuário.</p>
+					               </div>
+					            </div>
+					         </article>
+
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-2">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">Período: Março de 2020 - Junho de 2021</a> <span></span></h2>
+					                  <p>   - Projeto: Desenvolvimento de um sistema de gerenciamento de conteúdo para uma agência de marketing digital.
+										- Responsabilidades:
+										  - Criação de um painel de administração personalizado utilizando HTML, CSS, JavaScript e Python.
+										  - Implementação de recursos de criação, edição e exclusão de conteúdo.
+										  - Desenvolvimento de um sistema de autenticação e permissões de usuários.
+										  - Otimização do sistema para garantir segurança e desempenho.</p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-3">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#"> Período: Julho de 2021 - Dezembro de 2022</a> <span></span></h2>
+					                  <p>Site de Vendas com Carrinho de Compras:
+										Desenvolva um site de vendas que permita aos usuários adicionar produtos a um carrinho de compras e finalizar a compra. Use JavaScript para calcular o total da compra e criar uma experiência de compra interativa.</p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-4">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#"> Período: Janeiro de 2023 - Presente</a> <span></span></h2>
+					                  <p>   - Projeto: Desenvolvimento de um sistema de gerenciamento de projetos para uma empresa de desenvolvimento de software.
+										- Responsabilidades:
+										  - Criação de um painel de controle utilizando tecnologias como ReactJS, Node.js e MongoDB.
+										  - Implementação de recursos de criação, edição e acompanhamento de tarefas.
+										  - Integração de ferramentas de controle de versão e colaboração, como Git e Trello.
+										  - Testes automatizados e implementação de boas práticas de desenvolvimento.
+									 </p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-5">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#"> Projetos futuros</a> <span>Aqui estão alguns exemplos de projetos que séra desenvolvido:</span></h2>
+					                  <p>
+                                      
+										<br>1. Página de Portfólio Interativo:
+										   Crie uma página de portfólio para exibir seus trabalhos e projetos anteriores de forma interativa. Use animações e transições CSS para tornar a experiência do usuário mais dinâmica.<br/>
+										
+										<br>2. Site de Blog Responsivo:
+										   Desenvolva um site de blog que se adapte a diferentes tamanhos de tela, desde dispositivos móveis até desktops. Utilize recursos do CSS3 para criar um layout atraente e intuitivo.<br/>
+										
+									    
+										<br>3. Calculadora Interativa:
+										   Crie uma calculadora que permita realizar operações matemáticas básicas. Use JavaScript para processar os cálculos e exibir os resultados em tempo real.<br/>
+									
+										<br>4. Implemente o clássico jogo da velha utilizando HTML para a estrutura do tabuleiro e CSS para o design. Use JavaScript para controlar a lógica do jogo e verificar o vencedor.
+										
+										<br>5. Página de Login com Validação:
+										   Desenvolva uma página de login com campos de entrada para nome de usuário e senha. Utilize JavaScript para validar os dados inseridos antes de permitir o login.<br/>
+										
+										<br>6. Carrossel de Imagens:
+										   Crie um carrossel de imagens que exiba diferentes slides automaticamente ou permita a navegação manual. Use CSS3 para criar transições suaves entre as imagens.<br/>
+										
+										<br>7. Site de Receitas Culinárias:
+										   Crie um site com várias receitas culinárias, organizadas em categorias. Utilize CSS para criar um layout agradável e JavaScript para implementar filtros de busca e navegação.<br/>
+										
+										 <br>8. Aplicativo de Lista de Tarefas:
+										   Desenvolva um aplicativo simples de lista de tarefas que permita adicionar, remover e marcar tarefas como concluídas. Use localStorage para armazenar as tarefas localmente.<br/>
+										
+								
+										<br>9. Relógio Digital com Alarme:
+										   Crie um relógio digital que exiba a hora atual e permita definir um alarme. Use JavaScript para atualizar o relógio em tempo real e emitir um alerta sonoro quando o alarme for acionado.<br/>
+										
+										<br>10. <a href="https://loja-cristal-vercel.vercel.app/"target="_blank">site de vendas</a> com Carrinho de Compras:
+											Desenvolva um site de vendas que permita aos usuários adicionar produtos a um carrinho de compras e finalizar a compra. Use JavaScript para calcular o total da compra e criar uma experiência de compra interativa.<br/>
+										
+										Esses projetos são apenas algumas ideias!</p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-none">
+					               </div>
+					            </div>
+					         </article>
+					      </div>
+					   </div>
+				   </div>
+				</div>
+			</section>
+
+			<section class="colorlib-work" data-section="work">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Meu Trabalho</span>
+							<h2 class="colorlib-heading animate-box">Faça seu orçamento!</h2>
+						</div>
+					</div>
+					<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+						<div class="col-md-12">
+							<p class="work-menu"><span><a href="#" class="active">WordPress</a></span> <span><a href="#">Python</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url(images/educacional.png);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://educativo-site.netlify.app/">Site Educacional</a></h3>
+										<span>WordPress & E-learning</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(images/advocacia.png);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://regal-chimera-c81ca6.netlify.app/">Escritório de Contabilidade</a></h3>
+										<span>Python & Animação CSS</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
+							<div class="project" style="background-image: url(images/automação.png);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://cute-paletas-f2b804.netlify.app/">Sistema de Automação / Bot</a></h3>
+										<span>Python & Automação</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
+							<div class="project" style="background-image: url(images/aplicativo.png);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://poetic-praline-47d648.netlify.app/">Aplicativo Mobile</a></h3>
+										<span>App & Mobile</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url(images/loja.png);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://agencia-jbmarketing.netlify.app/">Loja Virtual / E-commerce</a></h3>
+										<span>E-commerce & Design</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(images/restaurante.png);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://restaurantetemplate.netlify.app/">Sistema para Restaurante</a></h3>
+										<span>PHP & Web</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box">
+							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Carregue mais <i class="icon-reload"></i></a></p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="colorlib-blog" data-section="blog">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Ler</span>
+							<h2 class="colorlib-heading">Noticias recentes Blog</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="blog.html" class="blog-img"><img src="images/blog 1.png" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<div class="desc">
+									<span><small>outubro 14, 2023 </small> | <small>Informação TI </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<h3><a href="blog.html">MEI para profissional de Tecnologia.</a></h3>
+									<p>Como falamos anteriormente, o profissional de TI não pode ser MEI. No entanto, há outros formatos de empresa que você pode escolher, como a Micro Empresa (ME) e Empresa de Pequeno Porte (EPP). </p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="blog-entry">
+								<a href="blog.html" class="blog-img"><img src="images/advocacia.png" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<div class="desc">
+									<span><small>Novembro 13, 2023 </small> | <small> Informação TI </small> | <small> <iclass="icon-bubble3"></iclass=> 4</small></span>
+									<h3><a href="blog.html">Desenvolvedo insprirações</a></h3>
+									<p>É uma homenagem aos mestres da codificação que desempenham um papel crucial na evolução tecnológica. Nesta data especial, programadores ao redor do mundo celebram suas conquistas e compartilham conhecimentos, promovendo a importância da programação na sociedade digital.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="blog.html" class="blog-img"><img src="images/contabilidade.png" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<div class="desc">
+									<span><small>Fevereiro 11,2023 </small> | <small> Inspirção
+							             </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<h3><a href="blog.html">Sistema ou automação/Bot</a></h3>
+									<p> Como pedir um orçamento?
+										✅Precisa de um bot(robô)?
+										Descreva em detalhes o que precisa ser automatizado (quais passos manuais gostaria de automatizar).
+										Mencione site e quais passos/processos gostaria de automatizar
+										 
+										✅Precisa de um sistema?
+										 
+										Descreva a visão ou quais funcionalidades imagina serem necessárias;
+										Quero um sistema para Fazer X,Y,Z
+										Esse sistema deve me permitir fazer A,B,C,D  </p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box">
+							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Carregue mais <i class="icon-reload"></i></a></p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="colorlib-contact" data-section="contact">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Entre em contato</span>
+							<h2 class="colorlib-heading">Contatos</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5">
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-globe-outline"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="#">josieljuniorfoco@gmail.com</a></p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-map"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>Goiânia-GO </p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-phone"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="tel://">+55 95 98424-0100</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-7 col-md-push-1">
+							<div class="row">
+								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
+									<form action="">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Name">
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Email">
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Subject">
+										</div>
+										<div class="form-group">
+											<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+										</div>
+										<div class="form-group">
+											<input type="submit" class="btn btn-primary btn-send-message" value="Mande mensagem">
+										</div>
+									</form>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div>
+	</div>
+	</div>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://wa.me/5595984240100?text=Adorei%20seu%20artigo" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+  z-index:1000;" target="_blank">
+<i style="margin-top:16px" class="fa fa-whatsapp"></i>
+</a>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+	<script>
+		function updateTheme(isDark) {
+			document.body.classList.toggle('dark-mode', isDark);
+			const themeText = document.getElementById('theme-toggle-text');
+			const themeIcon = document.getElementById('theme-icon');
+			if (themeText) {
+				themeText.textContent = isDark ? 'Tema Claro' : 'Tema Escuro';
+			}
+			if (themeIcon) {
+				themeIcon.innerHTML = isDark
+					? '<path d="M21 12.79A9 9 0 0 1 11.21 3 7 7 0 1 0 21 12.79z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>'
+					: '<path d="M12 3.75V5.75" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 18.25V20.25" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M4.75 12H2.75" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M21.25 12H19.25" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M5.85 5.85L4.45 4.45" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M19.55 19.55L18.15 18.15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M5.85 18.15L4.45 19.55" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M19.55 4.45L18.15 5.85" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/>';
+			}
+		}
+
+		document.addEventListener('DOMContentLoaded', function () {
+			const storedTheme = localStorage.getItem('site-theme');
+			const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			const isDark = storedTheme ? storedTheme === 'dark' : prefersDark;
+			updateTheme(isDark);
+
+			const toggle = document.getElementById('theme-toggle');
+			if (toggle) {
+				toggle.addEventListener('click', function () {
+					const nextDark = !document.body.classList.contains('dark-mode');
+					updateTheme(nextDark);
+					localStorage.setItem('site-theme', nextDark ? 'dark' : 'light');
+				});
+			}
+		});
+	</script>
+
+	</body>
+
+	</html>
+
+
+
+	
