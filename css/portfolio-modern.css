@@ -75,3 +75,20 @@ img{max-width:100%;display:block}
 @media(max-width:900px){.company-layout{grid-template-columns:1fr}.company-media{max-width:470px;justify-self:center}.company-copy h2{max-width:780px}}
 @media(max-width:720px){.company-mark img{width:70px;height:70px}.company-mark div span{font-size:9px}.company-mark strong{font-size:25px}.company-copy h2{font-size:clamp(33px,7.2vw,45px)}.company-copy p{font-size:14px}.company-video-frame video{height:min(74vh,565px)}.company-media{padding:12px}.founder-badge{margin-top:14px}}
 @media(max-width:440px){.founder-badge{width:100%}.founder-badge strong{font-size:10px}.founder-badge small{font-size:9px}.company-actions{align-items:stretch}.company-actions>.button{width:100%}.company-mark{gap:12px}.company-mark strong{font-size:20px}.company-mark small{font-size:9px}.company-video-frame video{min-height:340px;height:min(76vh,540px)}.company-media-head{font-size:8px}}
+
+/* Calcula Minha Operação — vitrine do SaaS */
+.calcula-card .visual-calcula{background:#071c4a;min-height:210px;isolation:isolate}
+.calcula-card .visual-calcula:after{opacity:.35}
+.calcula-banner{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:center;z-index:0}
+.calcula-card .visual-type,.calcula-card .visual-mark{color:#d1ebff;text-shadow:0 1px 8px rgba(0,18,60,.8);z-index:2}
+.calcula-demo{display:grid;grid-template-columns:minmax(112px,38%) 1fr;gap:17px;align-items:center;background:#f4f8ff;border:1px solid #dce8f8;border-radius:12px;padding:13px;margin:0 0 20px}
+.calcula-video{width:100%;max-width:165px;aspect-ratio:9/16;border-radius:9px;overflow:hidden;background:#071c4a;box-shadow:0 8px 24px rgba(3,27,78,.17)}
+.calcula-video iframe{display:block;width:100%;height:100%;border:0}
+.calcula-demo-copy{min-width:0;display:flex;flex-direction:column;align-items:flex-start;gap:10px}
+.calcula-demo-copy>span{font-size:9px;letter-spacing:.15em;font-weight:800;color:#0b60b1}
+.calcula-demo-copy strong{font:600 clamp(15px,1.6vw,20px)/1.25 var(--display);letter-spacing:-.035em;color:#06274a}
+.calcula-demo-copy p{font-size:12px;line-height:1.65;color:#526a7e;margin:0;flex:none}
+.calcula-demo-copy a{font-size:11px;font-weight:800;color:#0a61b2;text-decoration:underline;text-underline-offset:3px}
+.calcula-access{margin-top:auto;border:1px solid #d5e9f5!important;border-radius:8px;background:#edf7ff;padding:15px 16px!important;color:#075c9d!important}
+.calcula-access:hover{background:#e2f3ff;color:#064a80!important}
+@media(max-width:440px){.calcula-demo{grid-template-columns:115px minmax(0,1fr);gap:11px;padding:10px}.calcula-demo-copy strong{font-size:15px}.calcula-demo-copy p{font-size:11px}.calcula-card .visual-calcula{min-height:175px}}
