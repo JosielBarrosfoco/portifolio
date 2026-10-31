@@ -92,3 +92,8 @@ img{max-width:100%;display:block}
 .calcula-access{margin-top:auto;border:1px solid #d5e9f5!important;border-radius:8px;background:#edf7ff;padding:15px 16px!important;color:#075c9d!important}
 .calcula-access:hover{background:#e2f3ff;color:#064a80!important}
 @media(max-width:440px){.calcula-demo{grid-template-columns:115px minmax(0,1fr);gap:11px;padding:10px}.calcula-demo-copy strong{font-size:15px}.calcula-demo-copy p{font-size:11px}.calcula-card .visual-calcula{min-height:175px}}
+
+.calcula-heading-row{display:flex;align-items:center;gap:13px;margin:9px 0 10px}
+.calcula-heading-row .calcula-icon{width:54px;height:54px;flex:none;border-radius:13px;object-fit:contain;border:1px solid #d7e9ff;background:#fff}
+.calcula-heading-row h3{margin:0}
+@media(max-width:440px){.calcula-heading-row .calcula-icon{width:46px;height:46px}}
